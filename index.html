@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f4ef">
+    <meta name="description" content="A considered collection of contemporary art. Discover original paintings, photography, and sculpture from independent artists.">
+    <title>Mendlinah — Art for considered spaces</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div class="announcement">A little more meaning for the walls you come home to</div>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h16M4 16h16"></path></svg>
+          Menu
+        </button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+          <a href="#collection">Shop art</a>
+          <a href="#story">Our story</a>
+          <a href="#journal">Journal</a>
+        </nav>
+        <a class="wordmark" href="#" aria-label="Mendlinah home">Mendlinah</a>
+        <div class="header-actions">
+          <a href="#newsletter">Visit us</a>
+          <a class="bag-link" href="#collection" aria-label="Shopping bag, 0 items">
+            Bag <span class="bag-count" aria-hidden="true">0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy-block">
+          <p class="eyebrow">Art, thoughtfully found</p>
+          <h1 id="hero-title">A more personal kind of <em>art</em>.</h1>
+          <p class="hero-copy">Original works with a story to tell. Meet the independent artists making things worth looking at, living with, and passing on.</p>
+          <a class="button" href="#collection">
+            Find your piece
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"></path></svg>
+          </a>
+        </div>
+        <div class="hero-art">
+          <div class="hero-art-main">
+            <img src="Screenshot%202026-10-11%20153220.png" alt="Expressive oil portrait in a warm, traditional frame" fetchpriority="high">
+          </div>
+          <div class="hero-art-inset">
+            <img src="Screenshot%202026-10-11%20154040.png" alt="Abstract painting in a gallery setting">
+          </div>
+          <div class="art-caption">
+            <strong>Where the light lands</strong>
+            <span>New works, just arrived</span>
+          </div>
+          <span class="hero-index">A STUDY IN STILLNESS&nbsp; — &nbsp;01 / 04</span>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Our values">
+        <div class="shell ticker-inner">
+          <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m12 3 2.4 5.7 6.1.5-4.7 3.9 1.5 6-5.3-3.2-5.3 3.2 1.5-6-4.7-3.9 6.1-.5L12 3Z"></path></svg>Independent artists</span>
+          <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 12c3-8 15-8 18 0-3 8-15 8-18 0Z"></path><circle cx="12" cy="12" r="3"></circle></svg>Considered, not mass-produced</span>
+          <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M4 12V5l8-3 8 3v7c0 5-4 8-8 10-4-2-8-5-8-10Z"></path><path d="m8 12 2.5 2.5L16 9"></path></svg>Made to live with</span>
+          <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 7h13v11H3zM16 11h3l3 3v4h-6z"></path><circle cx="7.5" cy="19" r="1.5"></circle><circle cx="18.5" cy="19" r="1.5"></circle></svg>Carefully shipped to you</span>
+        </div>
+      </section>
+
+      <section class="collection shell" id="collection" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The collection</p>
+            <h2 id="collection-title">Find your point of view.</h2>
+          </div>
+          <p>One-of-a-kind works, chosen for their feeling as much as their form.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter artworks">
+          <button class="filter-button" type="button" data-filter="all" aria-pressed="true">All works</button>
+          <button class="filter-button" type="button" data-filter="painting" aria-pressed="false">Painting</button>
+          <button class="filter-button" type="button" data-filter="photography" aria-pressed="false">Photography</button>
+          <button class="filter-button" type="button" data-filter="sculpture" aria-pressed="false">Sculpture</button>
+        </div>
+
+        <div class="art-grid">
+          <article class="art-card" data-category="painting" data-title="Soft Study No. 3" data-artist="Elena Moreau" data-price="$1,250" data-description="A quiet exploration of shape and sunlight. Original oil and graphite on Belgian linen, finished by hand in a natural oak frame.">
+            <button class="artwork-button" type="button" aria-label="View Soft Study No. 3 by Elena Moreau">
+              <div class="artwork-image"><img src="art2.png" alt="Warm-toned figurative oil portrait" loading="lazy"><span class="artwork-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span></div>
+              <div class="artwork-meta"><div><h3 class="artwork-title">Soft Study No. 3</h3><p class="artwork-artist">Elena Moreau · Painting</p></div><span class="artwork-price">$1,250</span></div>
+            </button>
+          </article>
+          <article class="art-card" data-category="photography" data-title="Sunday, Somewhere" data-artist="Theo Anders" data-price="$680" data-description="The last warm hour of a summer day, held in a single frame. Museum-quality pigment print, made in a limited edition of 12 and signed by the artist.">
+            <button class="artwork-button" type="button" aria-label="View Sunday, Somewhere by Theo Anders">
+              <div class="artwork-image"><img src="Screenshot%202026-10-11%20153928.png" alt="Golden evening sunlight over a hazy field" loading="lazy"><span class="artwork-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span></div>
+              <div class="artwork-meta"><div><h3 class="artwork-title">Sunday, Somewhere</h3><p class="artwork-artist">Theo Anders · Photography</p></div><span class="artwork-price">$680</span></div>
+            </button>
+          </article>
+          <article class="art-card" data-category="sculpture" data-title="Held Form" data-artist="Aya Nakamura" data-price="$920" data-description="A hand-built stoneware vessel exploring balance, texture, and negative space. Each work in the series is unique, carrying the gentle irregularity of the maker's hand.">
+            <button class="artwork-button" type="button" aria-label="View Held Form by Aya Nakamura">
+              <div class="artwork-image"><img src="art5.png" alt="Sculptural ceramic vessel with softly curved lines" loading="lazy"><span class="artwork-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span></div>
+              <div class="artwork-meta"><div><h3 class="artwork-title">Held Form</h3><p class="artwork-artist">Aya Nakamura · Sculpture</p></div><span class="artwork-price">$920</span></div>
+            </button>
+          </article>
+          <article class="art-card" data-category="painting" data-title="After the Rain" data-artist="Lucía Velez" data-price="$1,480" data-description="Deep mineral blues give way to a small clearing of light. Acrylic, natural pigment, and charcoal on stretched canvas.">
+            <button class="artwork-button" type="button" aria-label="View After the Rain by Lucía Velez">
+              <div class="artwork-image"><img src="Screenshot%202026-10-11%20154120.png" alt="Expressive contemporary abstract painting in vivid colors" loading="lazy"><span class="artwork-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span></div>
+              <div class="artwork-meta"><div><h3 class="artwork-title">After the Rain</h3><p class="artwork-artist">Lucía Velez · Painting</p></div><span class="artwork-price">$1,480</span></div>
+            </button>
+          </article>
+          <article class="art-card" data-category="photography" data-title="The In-Between" data-artist="Margot Ellis" data-price="$540" data-description="A study in shadow, stillness, and the beauty of ordinary spaces. Archival silver gelatin print on cotton rag paper, signed and numbered.">
+            <button class="artwork-button" type="button" aria-label="View The In-Between by Margot Ellis">
+              <div class="artwork-image"><img src="Screenshot%202026-10-11%20154516.png" alt="Geometric architecture framed against the open sky" loading="lazy"><span class="artwork-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span></div>
+              <div class="artwork-meta"><div><h3 class="artwork-title">The In-Between</h3><p class="artwork-artist">Margot Ellis · Photography</p></div><span class="artwork-price">$540</span></div>
+            </button>
+          </article>
+          <article class="art-card" data-category="sculpture" data-title="Small Hours" data-artist="Jonah Finch" data-price="$760" data-description="Carved slowly from reclaimed wood and finished with natural oil, this small sculptural form celebrates the warmth and marks of its material.">
+            <button class="artwork-button" type="button" aria-label="View Small Hours by Jonah Finch">
+              <div class="artwork-image"><img src="art5.png" alt="Tactile handcrafted sculptural object in an earthy interior" loading="lazy"><span class="artwork-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span></div>
+              <div class="artwork-meta"><div><h3 class="artwork-title">Small Hours</h3><p class="artwork-artist">Jonah Finch · Sculpture</p></div><span class="artwork-price">$760</span></div>
+            </button>
+          </article>
+          <article class="art-card" data-category="painting" data-title="Blue, with Room" data-artist="Nina Sol" data-price="$1,100" data-description="A meditative composition where cool color and open space do the talking. Oil and cold wax on linen, presented in a hand-finished ash frame.">
+            <button class="artwork-button" type="button" aria-label="View Blue, with Room by Nina Sol">
+              <div class="artwork-image"><img src="Screenshot%202026-10-03%20114249.png" alt="Textural abstract art in muted blue and warm neutral tones" loading="lazy"><span class="artwork-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span></div>
+              <div class="artwork-meta"><div><h3 class="artwork-title">Blue, with Room</h3><p class="artwork-artist">Nina Sol · Painting</p></div><span class="artwork-price">$1,100</span></div>
+            </button>
+          </article>
+          <article class="art-card" data-category="photography" data-title="A Place to Pause" data-artist="Sam Ivers" data-price="$720" data-description="Light rests on a familiar path in this limited-edition landscape photograph. Printed with archival inks on softly textured, museum-grade paper.">
+            <button class="artwork-button" type="button" aria-label="View A Place to Pause by Sam Ivers">
+              <div class="artwork-image"><img src="Screenshot%202026-10-11%20154516.png" alt="Sunlight filtering through a quiet, green woodland" loading="lazy"><span class="artwork-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span></div>
+              <div class="artwork-meta"><div><h3 class="artwork-title">A Place to Pause</h3><p class="artwork-artist">Sam Ivers · Photography</p></div><span class="artwork-price">$720</span></div>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section class="journal" id="story" aria-labelledby="journal-title">
+        <div class="journal-image">
+          <img src="Screenshot%202026-10-11%20154040.png" alt="Carefully collected paintings displayed in a sunlit art space" loading="lazy">
+        </div>
+        <div class="journal-copy" id="journal">
+          <p class="eyebrow">Good art, good people</p>
+          <h2 id="journal-title">A gallery with room for everyone.</h2>
+          <p>We work directly with artists at every stage of their journey. Every piece is chosen by a person, made by a person, and sent to a home where it can mean something.</p>
+          <a class="text-link" href="#newsletter">Get to know us <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"></path></svg></a>
+        </div>
+      </section>
+
+      <section class="newsletter shell" id="newsletter" aria-labelledby="newsletter-title">
+        <div>
+          <p class="eyebrow">A good thing in your inbox</p>
+          <h2 id="newsletter-title">Art, stories & the occasional note.</h2>
+          <p class="newsletter-copy">First look at new artists, thoughtful stories, and small things worth looking at. No noise, ever.</p>
+        </div>
+        <div>
+          <form class="subscribe-form">
+            <label class="visually-hidden" for="email-address">Your email address</label>
+            <input id="email-address" name="email" type="email" placeholder="Your email address" autocomplete="email" required>
+            <button type="submit" aria-label="Subscribe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"></path></svg>
+            </button>
+          </form>
+          <p class="form-message" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <div class="footer-inner">
+        <a class="footer-brand" href="#">Mendlinah</a>
+        <p class="footer-copy">© 2025 Mendlinah. Made for looking closer.</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#collection">Instagram</a>
+          <a href="#story">Shipping & returns</a>
+          <a href="mailto:hello@formandfield.art">Get in touch</a>
+        </nav>
+      </div>
+    </footer>
+
+    <div class="dialog" role="presentation">
+      <section class="dialog-panel" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+        <button class="dialog-close" type="button" aria-label="Close artwork details">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"></path></svg>
+        </button>
+        <div class="dialog-image"><img src="" alt=""></div>
+        <div class="dialog-details">
+          <p class="eyebrow">One of a kind</p>
+          <h2 id="dialog-title"></h2>
+          <p class="dialog-artist"></p>
+          <p class="dialog-description"></p>
+          <p class="dialog-price"></p>
+          <button class="button dialog-add" type="button">Add to bag</button>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const filterButtons = document.querySelectorAll(".filter-button");
+      const artworkCards = document.querySelectorAll(".art-card");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const filter = button.dataset.filter;
+          filterButtons.forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+          artworkCards.forEach((card) => {
+            card.hidden = filter !== "all" && card.dataset.category !== filter;
+          });
+        });
+      });
+
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navigation = document.querySelector(".nav-links");
+      menuToggle.addEventListener("click", () => {
+        const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+        menuToggle.setAttribute("aria-expanded", String(!expanded));
+        navigation.classList.toggle("is-open", !expanded);
+      });
+      navigation.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          menuToggle.setAttribute("aria-expanded", "false");
+          navigation.classList.remove("is-open");
+        });
+      });
+
+      const dialog = document.querySelector(".dialog");
+      const dialogImage = document.querySelector(".dialog-image img");
+      const dialogTitle = document.querySelector("#dialog-title");
+      const dialogArtist = document.querySelector(".dialog-artist");
+      const dialogDescription = document.querySelector(".dialog-description");
+      const dialogPrice = document.querySelector(".dialog-price");
+      const dialogClose = document.querySelector(".dialog-close");
+      let lastFocusedElement;
+
+      function closeDialog() {
+        dialog.classList.remove("is-open");
+        document.body.classList.remove("dialog-open");
+        if (lastFocusedElement) lastFocusedElement.focus();
+      }
+
+      document.querySelectorAll(".artwork-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const card = button.closest(".art-card");
+          const image = button.querySelector("img");
+          lastFocusedElement = button;
+          dialogImage.src = image.src;
+          dialogImage.alt = image.alt;
+          dialogTitle.textContent = card.dataset.title;
+          dialogArtist.textContent = card.dataset.artist;
+          dialogDescription.textContent = card.dataset.description;
+          dialogPrice.textContent = card.dataset.price;
+          dialog.classList.add("is-open");
+          document.body.classList.add("dialog-open");
+          dialogClose.focus();
+        });
+      });
+
+      dialogClose.addEventListener("click", closeDialog);
+      dialog.addEventListener("click", (event) => {
+        if (event.target === dialog) closeDialog();
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && dialog.classList.contains("is-open")) closeDialog();
+      });
+
+      let bagCount = 0;
+      const bagLink = document.querySelector(".bag-link");
+      const bagCountLabel = document.querySelector(".bag-count");
+      document.querySelector(".dialog-add").addEventListener("click", () => {
+        bagCount += 1;
+        bagCountLabel.textContent = String(bagCount);
+        bagLink.setAttribute("aria-label", `Shopping bag, ${bagCount} ${bagCount === 1 ? "item" : "items"}`);
+        closeDialog();
+      });
+
+      document.querySelector(".subscribe-form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        const email = document.querySelector("#email-address");
+        const message = document.querySelector(".form-message");
+        if (!email.validity.valid) {
+          email.reportValidity();
+          return;
+        }
+        message.textContent = "Thank you — you're on the list.";
+        email.value = "";
+      });
+    </script>
+    </body>
+</html>
